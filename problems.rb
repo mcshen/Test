@@ -1,9 +1,7 @@
-# TODO: Fix this whole function
-def name num
+def manyGreetings num
     bigNum = 4 * num
-    for i in 1..num
-        for j in 0..3
-            puts "Hi"
-        end
+    greetingsString = "Hi"
+    for i in 1..bigNum
+            puts greetingsString
     end
 end
